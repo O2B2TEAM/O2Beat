@@ -1,6 +1,6 @@
 ### O2beat
 
-##폴더 구조
+## 폴더 구조
 ![image](https://github.com/O2B2TEAM/O2Beat/assets/112530099/e5111c13-12d3-45ae-86f8-cd90b3c4fec0)
 
 
@@ -9,7 +9,7 @@
 
 ![image](https://github.com/O2B2TEAM/O2Beat/assets/112530099/b9bf6f6e-9a0f-42b2-b7c0-b76a4d6768df)
 
-#게임 플레이 시간 제한
+# 게임 플레이 시간 제한
 
 DynamicBeat.java
 
