@@ -52,9 +52,9 @@ public class DynamicBeat extends JFrame {
 	// 뒤로가기 버튼
 	private ImageIcon backButtonEnteredImage = new ImageIcon(Main.class.getResource("/images/backButtonEntered.png"));
 	private ImageIcon backButtonBasicImage = new ImageIcon(Main.class.getResource("/images/backButtonBasic.png"));
-	//로그아웃 버튼
-	private ImageIcon logoutButtonEnteredImage = new ImageIcon(Main.class.getResource("/images/logoutButtonEntered.png"));
-	private ImageIcon logoutButtonBasicImage = new ImageIcon(Main.class.getResource("/images/logoutButtonBasic.png"));
+//	//로그아웃 버튼
+//	private ImageIcon logoutButtonEnteredImage = new ImageIcon(Main.class.getResource("/images/logoutButtonEntered.png"));
+//	private ImageIcon logoutButtonBasicImage = new ImageIcon(Main.class.getResource("/images/logoutButtonBasic.png"));
 	// 배경이미지 인스턴스
 	private Image background = new ImageIcon(Main.class.getResource("/images/introBackground(Title).jpg")).getImage();
 	// 메뉴바 인스턴스
@@ -69,7 +69,7 @@ public class DynamicBeat extends JFrame {
 	private JButton easyButton = new JButton(easyButtonBasicImage); // easy 버튼
 	private JButton hardButton = new JButton(hardButtonBasicImage); // hard 버튼
 	private JButton backButton = new JButton(backButtonBasicImage); // back 버튼
-	private JButton logoutButton = new JButton(logoutButtonBasicImage); // logout 버튼
+	private JButton logoutButton = new JButton("로그아웃"); // logout 버튼
 
 	private int mouseX, mouseY; // 실행되는 프로그램 안에서의 마우스 x좌표와 y좌표
 
@@ -416,14 +416,14 @@ public class DynamicBeat extends JFrame {
 		
         // 로그아웃 버튼
 		logoutButton.setVisible(false);
-		logoutButton.setBounds(1090, 550, 100, 100); // 버튼 위치 지정 (x,y, x축크기, y축크기)
-		logoutButton.setBorderPainted(false); // 기존 종료버튼 프레임 배경 선 제거
-		logoutButton.setContentAreaFilled(false); // 기존 종료버튼 프레임 배경 색 제거
-		logoutButton.setFocusPainted(false);
+		logoutButton.setBounds(900, 590, 200, 50); // 버튼 위치 지정 (x,y, x축크기, y축크기)
+//		logoutButton.setBorderPainted(false); // 기존 종료버튼 프레임 배경 선 제거
+//		logoutButton.setContentAreaFilled(false); // 기존 종료버튼 프레임 배경 색 제거
+//		logoutButton.setFocusPainted(false);
 		logoutButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) { // hover 상태에서의 이벤트 처리
-				logoutButton.setIcon(logoutButtonEnteredImage);// 마우스 올라갔을 때 변경
+//				logoutButton.setIcon(logoutButtonEnteredImage);// 마우스 올라갔을 때 변경
 				logoutButton.setCursor(new Cursor(Cursor.HAND_CURSOR)); // 마우스 올라갔을 때 손 모양
 				Music buttonEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
 				buttonEnteredMusic.start();
@@ -431,7 +431,7 @@ public class DynamicBeat extends JFrame {
 
 			@Override
 			public void mouseExited(MouseEvent e) { // 마우스가 올라갔다가 나왔을 때
-				logoutButton.setIcon(logoutButtonBasicImage);// 마우스가 올라갔다가 나왔을 때
+//				logoutButton.setIcon(logoutButtonBasicImage);// 마우스가 올라갔다가 나왔을 때
 				logoutButton.setCursor(new Cursor(Cursor.DEFAULT_CURSOR)); // 마우스 원래 모양으로 돌아감
 			}
 
