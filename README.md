@@ -1,5 +1,31 @@
 ### O2beat
 
+## 1차 완성
+SQL score 자료형 -> number로 변경하셔야 합니다.
+![image](https://github.com/O2B2TEAM/O2Beat/assets/112530099/8dd67284-829a-4781-8992-f90b3a7be316)
+
+## 데이터베이스 -> 포트번호, SCORE 확인 해 주세요.
+
+데이터베이스 : Oracle
+버전 : 19c
+전역 데이터베이스 이름 : orcl
+SID : orcl
+포트번호 : 1521 (GH)
+포트번호 : 1522 (MJ)
+
+데이터베이스 사용자 이름 : java
+데이터베이스 비밀번호 : oracle
+
+SCORES 테이블
+- USERNAME => USERS의 외래키
+- SCORE => VARCHAR2 (50 BYTE) -> NUMBER 로 변경
+
+USERS 테이블
+- USERNAME => VARCHAR2 (50 BYTE)
+- PASSWORD => VARCHAR2 (50 BYTE)
+
+
+
 ## 폴더 구조
 ![image](https://github.com/O2B2TEAM/O2Beat/assets/112530099/e5111c13-12d3-45ae-86f8-cd90b3c4fec0)
 
