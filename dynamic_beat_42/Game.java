@@ -901,14 +901,65 @@ public class Game extends Thread {
 	         int startTime=1000-Main.REACH_TIME*1000;
 	         int gap=333;
 	         beats=new Beat[] {
-	                 new Beat(startTime + gap * 5, "Space"),  // 1
-	                   new Beat(startTime + gap * 12, "K"),      // 2
-	                   new Beat(startTime + gap * 15, "J"),     // 3
-	                   new Beat(startTime + gap * 19, "F"),     // 4
-	                   new Beat(startTime + gap * 24, "J")     // 5
-
-			};
-		}
+	                 new Beat(startTime + gap * 6, "Space"),  // 1
+	                 new Beat(startTime + gap * 12, "K"),      // 2
+	                 new Beat(startTime + gap * 16, "J"),     // 3
+	                 new Beat(startTime + gap * 19, "S"),     // 4
+	                 new Beat(startTime + gap * 27, "F"),
+	                 new Beat(startTime + gap * 29, "J"),
+	                 new Beat(startTime + gap * 31, "K"),
+	                 new Beat(startTime + gap * 33, "L"),
+	                 new Beat(startTime + gap * 35, "K"),
+	                 new Beat(startTime + gap * 37, "J"),
+	                 new Beat(startTime + gap * 39, "D"),
+	                 new Beat(startTime + gap * 41, "K"),
+	                 new Beat(startTime + gap * 43, "J"),
+	                 new Beat(startTime + gap * 49, "F"),
+	                 
+	                 new Beat(startTime + gap * 55, "Space"),
+	                 new Beat(startTime + gap * 58, "K"),
+	                 new Beat(startTime + gap * 62, "J"),
+	                 new Beat(startTime + gap * 65, "D"),
+	                 new Beat(startTime + gap * 68, "F"),
+	                 new Beat(startTime + gap * 74, "S"),
+	                 
+	                 new Beat(startTime + gap * 76, "D"),
+	                 new Beat(startTime + gap * 78, "S"),
+	                 new Beat(startTime + gap * 80, "K"),
+	                 new Beat(startTime + gap * 82, "K"),
+	                 new Beat(startTime + gap * 84, "D"),
+	                 new Beat(startTime + gap * 86, "D"),
+	                 new Beat(startTime + gap * 88, "L"),
+	                 new Beat(startTime + gap * 92, "L"),
+	                 new Beat(startTime + gap * 95, "S"),
+	                 new Beat(startTime + gap * 102, "Space"),
+	                 
+	                 new Beat(startTime + gap * 111, "S"),
+	                 new Beat(startTime + gap * 113, "K"),
+	                 new Beat(startTime + gap * 114, "D"),
+	                 
+	                 new Beat(startTime + gap * 115, "D"),
+	                 new Beat(startTime + gap * 116, "L"),
+	                 new Beat(startTime + gap * 117, "J"),
+	                 
+	                 new Beat(startTime + gap * 118, "J"),
+	                 new Beat(startTime + gap * 119, "K"),
+	                 new Beat(startTime + gap * 120, "K"),
+	                 
+	                 new Beat(startTime + gap * 123, "S"),
+	                 new Beat(startTime + gap * 124, "K"),
+	                 new Beat(startTime + gap * 125, "D"),
+	                 new Beat(startTime + gap * 126, "D"),
+	                 new Beat(startTime + gap * 127, "D"),
+	                 new Beat(startTime + gap * 128, "K"),
+	                 new Beat(startTime + gap * 129, "K"),
+	                 new Beat(startTime + gap * 130, "K"),
+	                 new Beat(startTime + gap * 131, "J"),
+	                 new Beat(startTime + gap * 134, "F"),
+	                   
+	                
+	         };
+	      }
 		else if(titleName.equals("Pontain")&&difficulty.equals("Hard")) {
 			int startTime=1000-Main.REACH_TIME*1000;
 			beats=new Beat[] {
@@ -1029,6 +1080,11 @@ public class Game extends Thread {
 			}
 		}
 		
+		
+		
+		
+		
+}
 		
 		
 		
