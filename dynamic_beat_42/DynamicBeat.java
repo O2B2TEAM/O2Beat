@@ -672,9 +672,9 @@ public class DynamicBeat extends JFrame {
 	        new Login(); // 로그인 화면으로 돌아가기
 	        dispose(); // DynamicBeat Frame 종료
 	    }
-	 private void updateHighScoreLabel() {
+	 	 private void updateHighScoreLabel() {
 		    highScore = Database.getHighScore(username); // DB에서 사용자 최고 점수 가져오기
-		    highScoreLabel.setText("Username: " + username + " Highscore: " + highScore); // 라벨 텍스트 업데이트
+		    highScoreLabel.setText("<html>" + username + "님<br>최고점수:" + highScore + "</html>"); // 라벨 텍스트 업데이트
 		}
 
 	
