@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 import javax.swing.ImageIcon;
 
-import dynamic_beat_21.Main;
+import dynamic_beat_42.Main;
 
 public class Game extends Thread {
 	// 게임정보 인스턴스
@@ -1079,14 +1079,4 @@ public class Game extends Thread {
 			        }
 			}
 		}
-		
-		
-		
-		
-		
-}
-		
-		
-		
-		
 }
